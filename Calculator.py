@@ -187,5 +187,5 @@ st.markdown("---")
 st.markdown("Made with ❤️ by Asad using Streamlit ✨")
 # ---- Footer Section ----
 st.markdown("### Connect with me:")
-st.markdown("[GitHub](https://github.com/Datz-AsadAnalyst")
+st.markdown("[GitHub](https://github.com/Datz-AsadAnalyst)")
 
