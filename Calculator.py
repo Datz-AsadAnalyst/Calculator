@@ -184,8 +184,28 @@ if st.checkbox("📜 Show History"):
 
 # ---- Footer ----
 st.markdown("---")
-st.markdown("Made with ❤️ by Asad using Streamlit ✨")
+st.markdown(
+    "<div style='text-align:center; font-weight:bold; font-size:22px;'>"
+    "Made with ❤️ by Asad ✨"
+    "</div>",
+    unsafe_allow_html=True,
+)
 # ---- Footer Section ----
-st.markdown("### Connect with me:")
-st.markdown("[GitHub](https://github.com/Datz-AsadAnalyst)")
+st.markdown(
+    "<div style='text-align:center; font-weight:bold; font-size:18px;'>"
+    "Connect with me:"
+    "</div>",
+    unsafe_allow_html=True,
+)
+st.markdown(
+    """
+    <div style='text-align:center; font-size:18px; font-weight:bold;'>
+        <a href='https://github.com/Datz-AsadAnalyst' 
+           style='color:#000000; background-color:#51ACBD; padding:8px 18px; border-radius:8px; text-decoration:none; display:inline-block; border:2px solid #000000;'>
+            <b>GitHub</b>
+        </a>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
 
